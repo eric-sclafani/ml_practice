@@ -16,8 +16,18 @@ Alongside my code samples, starting in `02_Data_Selection.ipynb`, you will have 
 
 If you'd like, you *can* use the dataset I use for the code samples, but I *`highly`* encourage you to explore things on your own. The point of this is to build up experience through experimentation and to learn the python machine learning tools first hand.
 
+# **What you will learn**
+
+Following these notebooks, you will learn the essence of data science and machine learning: `how to use data to inform decisions`. To do this, you will be walked through the most popular data-related libraries in python and how to use their APIs. This includes:
+- [Pandas](https://pandas.pydata.org/about/index.html) - versatile data processing 
+- [NumPy](https://numpy.org/) - efficient implementation of arrays and matrices
+- [Matplotlib](https://matplotlib.org/stable/gallery/index) + [Seaborn](https://seaborn.pydata.org/) - beautiful data visualizations
+- [Sklearn](https://scikit-learn.org/stable/) - powerful machine learning implementantions 
+
+
+
 # Data
 
 Below is a list of datasets I either uses, referenced, or planned to use and didn't make the final cut.
 
-- Car sales: https://www.kaggle.com/datasets/gagandeep16/car-sales?select=Car_sales.csv
+- [Car sales](https://www.kaggle.com/datasets/gagandeep16/car-sales?select=Car_sales.csv)
