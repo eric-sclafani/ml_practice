@@ -10,7 +10,7 @@ From my experience, `true understanding` comes from simple explanations and visu
 
 # **Layout**
 
-Each notebook contains a mixture of notes, visualizations, and code samples for walking you through a machine learning project. Alongside my code samples, in each notebook starting with `02_Data_Selection.ipynb`, there will be exercises in which you will apply what you've learned to the [Iris](https://archive.ics.uci.edu/ml/datasets/iris) dataset, one of the most well-known datasets in the world. 
+Each notebook contains a mixture of notes, visualizations, and code samples for walking you through a machine learning project. Alongside my code samples, in each notebook starting with `03_Data_analysis_and_preprocessing.ipynb`, there will be exercises in which you will apply what you've learned to the [Iris](https://archive.ics.uci.edu/ml/datasets/iris) dataset, one of the most well-known datasets in the world. 
 
 The point of this is to build up experience through experimentation and to learn the python machine learning tools first hand. The Iris dataset is often described as the "Hello, World!" of data-related endeavors since it contains good quantitative and qualitative examples, as well as statistical correlations between features (you'll learn what these terms mean later!).
 
@@ -33,10 +33,12 @@ If you don't already, it's a great idea to start using [python environments](htt
 
 I recommend also installing [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) and using [conda environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) since they're really simple to setup. Later down the line in your studies/career, if you find yourself writing lots of python scripts with many dependencies, I recommend switching to [Poetry](https://python-poetry.org/docs/) because conda is great for learning, but is also uses a separate package manager (`conda install` instead of `pip3 install`), which can get convoluted and annoying (imo). 
 
-I will be using `conda` for this project, so I recommend you do the same. When you're ready to get started, inside the `ml_practice/` directory, run `conda install --file requirements.txt` to install the necessary dependencies.
+I will be using `conda` for this project, so I recommend you do the same. When you're ready to get started, inside the `ml_practice/` directory, run `conda create --name ml_practice --file requirements.txt` to install the necessary dependencies. The, everytime you need to activate the environment, run `conda activate ml_practice`
+
+
 
 ## Juyterlab
-For the best experience, these notebooks are best viewed through [JupyterLab](https://jupyter.org/install) because certain cells will be hidden by default. 
+For the best experience, these notebooks are best viewed through [JupyterLab](https://jupyter.org/install) because certain cells will be hidden by default. I am unsure if other viewing options (Jupyer notebook, Github preview) preserve this code hiding feature, so I recommend `only using JupyterLab`.
 
 # Data
 
