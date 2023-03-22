@@ -1,12 +1,17 @@
 This repo contains code for my LIN 538 final project, which is an end-to-end machine learning project walkthrough. These note will eventually be transferred over to my planned learning website.
 
+
 # **Intended audience**
 
-The intended audience is anyone `completely new to machine learning` with little to no math background (it is assumed that you have basic python knowledge, however)
+The intended audience is anyone `new to machine learning`.
 
 I do include mathematical formulas, but they are never the focus. They are there so you can get used to them. They are also accompanied with hefty explanations and code samples that breakdown what the equations do. 
 
 From my experience, `true understanding` comes from simple explanations and visualizations, as well as personal experimentation. While equations and mathematical theory are very important, they can often deter people new to machine learning.
+
+# **Prerequisite knowledge**
+
+
 
 # **Layout**
 
