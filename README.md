@@ -11,7 +11,8 @@ From my experience, `true understanding` comes from simple explanations and visu
 
 # **Prerequisite knowledge**
 
-
+- Python basics
+- 
 
 # **Layout**
 
