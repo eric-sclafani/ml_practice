@@ -12,7 +12,6 @@ From my experience, `true understanding` comes from simple explanations and visu
 # **Prerequisite knowledge**
 
 - Python basics
-- 
 
 # **Layout**
 
@@ -39,7 +38,7 @@ If you don't already, it's a great idea to start using [python environments](htt
 
 I recommend also installing [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) and using [conda environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) since they're really simple to setup. Later down the line in your studies/career, if you find yourself writing lots of python scripts with many dependencies, I recommend switching to [Poetry](https://python-poetry.org/docs/) because conda is great for learning, but is also uses a separate package manager (`conda install` instead of `pip3 install`), which can get convoluted and annoying (imo). 
 
-I will be using `conda` for this project, so I recommend you do the same. When you're ready to get started, inside the `ml_practice/` directory, run `conda create --name ml_practice --file requirements.txt` to install the necessary dependencies. The, everytime you need to activate the environment, run `conda activate ml_practice`
+I will be using `conda` for this project, so I recommend you do the same. When you're ready to get started, inside the `ml_practice/` directory you cloned, run `conda create --name ml_practice --file requirements.txt` to install the necessary dependencies. Then, every time you need to activate the environment, run `conda activate ml_practice`
 
 
 
