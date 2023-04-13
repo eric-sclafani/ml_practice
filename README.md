@@ -36,14 +36,22 @@ If you're new to Github, check out [this](https://docs.github.com/en/repositorie
 ## Environment setup
 If you don't already, it's a great idea to start using [python environments](https://www.freecodecamp.org/news/python-virtual-environments-explained-with-examples/). Tldr, they are a way to create self contained python dependency installations so you don't have to install things to your local machine and have potential conflicts. I recommend giving that link a read for more information. 
 
-I recommend also installing [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) and using [conda environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) since they're really simple to setup. Later down the line in your studies/career, if you find yourself writing lots of python scripts with many dependencies, I recommend switching to [Poetry](https://python-poetry.org/docs/) because conda is great for learning, but is also uses a separate package manager (`conda install` instead of `pip3 install`), which can get convoluted and annoying (imo). 
-
-I will be using `conda` for this project, so I recommend you do the same. When you're ready to get started, inside the `ml_practice/` directory you cloned, run `conda create --name ml_practice --file requirements.txt` to install the necessary dependencies. Then, every time you need to activate the environment, run `conda activate ml_practice`
-
+Create an environment by running:
+```bash
+python3.11 -m venv venv/
+source venv/bin/activate
+```
+Which will create a directory called `venv/` to store all the dependencies and then activate the environment. Now run:
+```bash
+pip3 install -r requirements.txt
+```
+to install all the dependencies for the project.
 
 
 ## Juyterlab
 For the best experience, these notebooks are best viewed through [JupyterLab](https://jupyter.org/install) because certain cells will be hidden by default. I am unsure if other viewing options (Jupyer notebook, Github preview) preserve this code hiding feature, so I recommend `only using JupyterLab`.
+
+After activating your python environment outlined in the previous section, type into the terminal `jupyer-lab` to open it.
 
 # Data
 
