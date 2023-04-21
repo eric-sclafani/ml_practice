@@ -51,7 +51,7 @@ to install all the dependencies for the project.
 ## Juyterlab
 For the best experience, these notebooks are best viewed through [JupyterLab](https://jupyter.org/install) because certain cells will be hidden by default. I am unsure if other viewing options (Jupyer notebook, Github preview) preserve this code hiding feature, so I recommend `only using JupyterLab`.
 
-After activating your python environment outlined in the previous section, type into the terminal `jupyer-lab` to open it.
+After activating your python environment outlined in the previous section, type into the terminal `jupyter-lab` to open it.
 
 # Data
 
