@@ -15,7 +15,7 @@ From my experience, `true understanding` comes from simple explanations and visu
 
 # **Layout**
 
-Each notebook contains a mixture of notes, visualizations, and code samples for walking you through a machine learning project. Alongside my code samples, in each notebook starting with `03_Data_analysis_and_preprocessing.ipynb`, there will be exercises in which you will apply what you've learned to the [Iris](https://archive.ics.uci.edu/ml/datasets/iris) dataset, one of the most well-known datasets in the world. 
+Each notebook contains a mixture of notes, visualizations, and code samples for walking you through a machine learning project. Alongside my code samples, in each notebook starting with `03_Data_analysis_and_visualization.ipynb`, there will be exercises in which you will apply what you've learned to the [Iris](https://archive.ics.uci.edu/ml/datasets/iris) dataset, one of the most well-known datasets in the world. 
 
 The point of this is to build up experience through experimentation and to learn the python machine learning tools first hand. The Iris dataset is often described as the "Hello, World!" of data-related endeavors since it contains good quantitative and qualitative examples, as well as statistical correlations between features (you'll learn what these terms mean later!).
 
@@ -23,7 +23,6 @@ The point of this is to build up experience through experimentation and to learn
 
 Following these notebooks, you will learn the essence of data science and machine learning: `how to use data to inform decisions`. To do this, you will be walked through the most popular data-related libraries in python and how to use their APIs. This includes:
 - [Pandas](https://pandas.pydata.org/about/index.html) - versatile data processing 
-- [NumPy](https://numpy.org/) - efficient implementation of arrays and matrices
 - [Matplotlib](https://matplotlib.org/stable/gallery/index) + [Seaborn](https://seaborn.pydata.org/) - beautiful data visualizations
 - [Sklearn](https://scikit-learn.org/stable/) - powerful machine learning implementantions 
 
@@ -49,7 +48,7 @@ to install all the dependencies for the project.
 
 
 ## Juyterlab
-For the best experience, these notebooks are best viewed through [JupyterLab](https://jupyter.org/install) because certain cells will be hidden by default. I am unsure if other viewing options (Jupyer notebook, Github preview) preserve this code hiding feature, so I recommend `only using JupyterLab`.
+For the best experience, these notebooks are best viewed through [JupyterLab](https://jupyter.org/install) because certain cells will be hidden by default. I am unsure if other viewing options (Jupyer notebook, Github preview) preserve this code hiding feature, so I recommend `using JupyterLab`.
 
 After activating your python environment outlined in the previous section, type into the terminal `jupyter-lab` to open it.
 
