@@ -5,8 +5,6 @@ This repo contains code for my LIN 538 final project, which is an end-to-end mac
 
 The intended audience is anyone `new to machine learning`.
 
-I do include mathematical formulas, but they are never the focus. They are there so you can get used to them. They are also accompanied with hefty explanations and code samples that breakdown what the equations do. 
-
 From my experience, `true understanding` comes from simple explanations and visualizations, as well as personal experimentation. While equations and mathematical theory are very important, they can often deter people new to machine learning.
 
 # **Prerequisite knowledge**
@@ -15,7 +13,7 @@ From my experience, `true understanding` comes from simple explanations and visu
 
 # **Layout**
 
-Each notebook contains a mixture of notes, visualizations, and code samples for walking you through a machine learning project. Alongside my code samples, in each notebook starting with `03_Data_analysis_and_visualization.ipynb`, there will be exercises in which you will apply what you've learned to the [Iris](https://archive.ics.uci.edu/ml/datasets/iris) dataset, one of the most well-known datasets in the world. 
+Each notebook contains a mixture of notes, visualizations, and code samples for walking you through a machine learning project. 
 
 The point of this is to build up experience through experimentation and to learn the python machine learning tools first hand. The Iris dataset is often described as the "Hello, World!" of data-related endeavors since it contains good quantitative and qualitative examples, as well as statistical correlations between features (you'll learn what these terms mean later!).
 
